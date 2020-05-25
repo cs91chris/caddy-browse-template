@@ -1,0 +1,62 @@
+html {
+    font-size: 1rem!important;
+}
+
+@media (min-width: 576px) {
+    html {
+        font-size: 1.2rem!important;
+    }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 1.4rem!important;
+    }
+}
+
+@media (min-width: 1200px) {
+}
+
+h5 {
+    color:#bbb
+}
+
+body {
+    background-color:#333;
+}
+
+a,
+span,
+.file-default-color {
+    color:#dadada
+}
+
+a:hover             {color:#aaaaaa}
+.dir-color          {color:#0550db}
+.file-image-color   {color:#da7ada}
+.file-video-color   {color:#ca7aca}
+.file-music-color   {color:#ca7aca}
+.file-doc-color     {color:#7acaca}
+.file-exec-color    {color:#7aca7a}
+.file-text-color    {color:#caaa7a}
+.file-archiv-color  {color:#ca7a7a}
+
+input#search {
+    border:0!important
+}
+
+td span {
+    word-wrap:none;
+    white-space:nowrap;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+

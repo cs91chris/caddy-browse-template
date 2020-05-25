@@ -1,0 +1,26 @@
+{
+	"name": "Caddy File Server",
+	"short_name": "Caddy Browse",
+	"lang": "en-US",
+	"start_url": "/",
+	"display": "standalone",
+	"background_color": "black",
+	"theme_color": "black",
+	"icons": [
+		{
+			"src": "/icons/favicon-128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		},
+		{
+			"src": "/icons/favicon-192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/icons/favicon-512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	]
+}

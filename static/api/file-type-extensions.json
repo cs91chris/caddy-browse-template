@@ -1,0 +1,24 @@
+{
+	"image": [
+		"svg", "png", "jpg", "gif", "ico"
+	],
+	"video": [
+		"avi", "mkv"
+	],
+	"music": [
+		"flac", "mp3", "ogg"
+	],
+	"doc": [
+		"pdf", "doc", "docx"
+	],
+	"exec": [
+		"exe", "sh", "run", "py"
+	],
+	"text": [
+		"txt", "info", "md"
+	],
+	"archiv": [
+		"tar", "jar", "zip", "gz", "xz", "7z"
+	]
+}
+

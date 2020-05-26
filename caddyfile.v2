@@ -1,0 +1,46 @@
+{
+    "apps": {
+        "http": {
+            "servers": {
+                "srv0": {
+                    "listen": [":8080"],
+                    "routes": [
+						{
+                            "match": [
+								{
+                                    "host": ["localhost"]
+                                }
+                            ],
+                            "handle": [
+								{
+                                    "handler": "subroute",
+                                    "routes": [
+										{
+                                            "handle": [
+												{
+                                                    "handler": "templates"
+                                                },
+												{
+                                                    "browse": {
+														"template_file": "template.html"
+													},
+                                                    "handler": "file_server",
+                                                    "hide": [],
+													"root": "./static"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "terminal": true
+                        }
+                    ],
+                    "automatic_https": {
+                        "skip": ["localhost"]
+                    }
+                }
+            }
+        }
+    }
+}

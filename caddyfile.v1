@@ -1,0 +1,5 @@
+http://localhost:8080
+{
+    root /home/data/static
+    browse / /home/data/template.html
+}
